@@ -1,5 +1,18 @@
 import React from "react";
 
+<<<<<<< HEAD
+=======
+export interface NowPlayingSongProps {
+  album: string;
+  albumImageUrl: string;
+  artist: string;
+  isPlaying: boolean;
+  songUrl: string;
+  artistUrl: string;
+  title: string;
+}
+
+>>>>>>> dcbb74842473cd3a2b0e3271742e494e4132fdb1
 export interface TopTracksProps {
   artist: string;
   songUrl: string;

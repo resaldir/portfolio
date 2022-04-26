@@ -1,7 +1,5 @@
 # Next.js Portfolio Template
 
-_Estimated reading time: 3 minutes_
-
 Multi-themed portfolio that will greatly increase your chances of getting attention from recruiters.
 
 ## Features
@@ -20,15 +18,12 @@ You’ll need to have Node 10.16.0 or later version on your local development ma
 
 Install the dependancies for this project.
 
-```sh
-cd portfolio
-yarn install
+```npm install
 ```
 
 Start a Node development server.
 
-```sh
-yarn dev
+```npm run dev 
 ```
 
 The application will open in your browser at http://localhost:3000
@@ -38,4 +33,4 @@ The application will open in your browser at http://localhost:3000
 If you have any issues setting up this portfolio project, please reach out to me on my [twitter].
 
 [personal portfolio]: https://resaldir.vercel.app/
-[twitter]: https://twitter.com/adrinlolx
+[twitter]: https://twitter.com/resaldi_rp

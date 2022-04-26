@@ -23,7 +23,7 @@ interface ContainerProps {
 export default function Container({ children, ...customMeta }: ContainerProps) {
   const router = useRouter();
   const meta = {
-    title: "Lasha Kakabadze – React.js Developer",
+    title: "Resaldi Ramadhan Putra - IT Operasion Analyst Lead",
     description: `React developer, JavaScript enthusiast, and freelancer.`,
     image: "https://www.adrinlol.com/assets/png/Thumbnail.png",
     type: "website",
@@ -51,7 +51,7 @@ export default function Container({ children, ...customMeta }: ContainerProps) {
         />
         <link rel="canonical" href={`https://adrinlol.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Lasha Kakabadze" />
+        <meta property="og:site_name" content="Resaldi Ramadhan Putra" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />

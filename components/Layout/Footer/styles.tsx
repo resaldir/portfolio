@@ -34,7 +34,6 @@ export const FooterContainer = styled.footer<StringProps>`
     color: ${({ darkTheme }) => (darkTheme ? COLOR_WHITE : COLOR_BLACK)};
   }
 
-
 `;
 
 export const GridContainer = styled.div`

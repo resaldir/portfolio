@@ -3,7 +3,7 @@ import Container from "components/Layout/Container";
 
 export default function Blog() {
   return (
-    <Container title="Blog - Lasha Kakabadze">
+    <Container title="Blog - Resaldi Ramadhan Putra">
       <h1>About</h1>
       <Paragraph>
         In the recent years, I've found out that writing blogs is a great way to

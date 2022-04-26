@@ -9,6 +9,10 @@ export const Projects = () => {
 
   return (
     <Container>
+<<<<<<< HEAD
+=======
+      <h3>Featured Projects</h3>
+>>>>>>> dcbb74842473cd3a2b0e3271742e494e4132fdb1
       {data?.message ? (
         <h4>Maximum rate limit reached.</h4>
       ) : (

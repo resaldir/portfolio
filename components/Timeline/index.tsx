@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { ChildrenStringProps } from "lib/types";
-import { COLOR_SPOTIFY_GREEN } from "lib/colorPalette";
 
 import { DividerBorder, StepLi, MoreButton } from "components/Timeline/styles";
 
@@ -14,18 +13,6 @@ export const Timeline = () => {
   const Step = ({ title, children }: ChildrenStringProps) => (
     <StepLi>
       <div>
-        <svg viewBox="0 0 24 24">
-          <g
-            fill="none"
-            stroke={COLOR_SPOTIFY_GREEN}
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-            <path d="M22 4L12 14.01l-3-3" />
-          </g>
-        </svg>
         <h5>{title}</h5>
       </div>
       <p>{children}</p>
@@ -48,94 +35,115 @@ export const Timeline = () => {
 
   return (
     <>
-      <h3>Timeline</h3>
-      <Year>2021</Year>
+      <Divider />
+      <h3>Resume</h3>
+      <Year>Work Experience</Year>
       <ul>
-        <Step title="Joined Vabaco">
-          I'm thrilled about this new role as a React Developer, helping create
-          enterprise web applications for healthcare services.
+        <Step title="Protonema | Information Technology Operations Analyst Lead (Jan 2022 - Present)">
+          <ul>
+            - Support IT Charging Platform and Integration, Telkomsel on Project
+            L2 OCS TC to analyze, prevent and predictive the issue based on the
+            data provided via ELK and other analytics tools (Grafana, webapp,
+            weblogic, etc)
+          </ul>
+          <ul>
+            - Analyze manual task that can be automate for more efficiency
+          </ul>
+          <ul>
+            - Manage Monica & Marcela App Development to help Telkomsel employee
+            day to day task
+          </ul>
+        </Step>
+      </ul>
+      <ul>
+        <Step title="Protonema | Information Technology Infrastructure Team Lead (Jul 2017 – Jan 2022)">
+          <ul>
+            - Support Infrastructure Telkomsel Department (OSPLA, DBA, and SBM)
+          </ul>
+          <ul>
+            - Manage all activities completed within SLA and all process
+            implemented correctly
+          </ul>
+          <ul>
+            - Conduct meeting regularly with customers to keep the project on
+            track, discuss any issues, changes, risks, and follow up them
+          </ul>
+          <ul>
+            - Manage, monitor and control project team members working according
+            to quality standard based on SOP
+          </ul>
+          <ul>
+            - Perform a task to collect status and summary of the project and
+            present it to project manager or customers
+          </ul>
+          <ul>
+            - Planning a schedule of resources to maintain the quality of the
+            projects and to meet the project objectives
+          </ul>
+        </Step>
+      </ul>
+      <ul>
+        <Step title="Protonema | UI/UX Designer (Sep 2019 – Dec 2021)">
+          <ul>
+            - Create UI/UX for Monica (Monitoring Charging Application) Mobile
+            App
+          </ul>
+          <ul>- Create Web for protonema.co.id</ul>
+          <ul>- Create UI/UX for MyProtonema Mobile App</ul>
+        </Step>
+      </ul>
+      <ul>
+        <Step title="Protonema | Information Technology Technical Support (Sep 2015 – Jun 2017)">
+          <ul>
+            - Support IT Consumer Billing Management Department, Telkomsel
+          </ul>
+          <ul>
+            - Manage 1st level Billing/Invoicing operation related to Online
+            Charging System
+          </ul>
+          <ul>
+            - Create reports for Billing/Invoicing operation problems for
+            further action to L2 Team
+          </ul>
         </Step>
       </ul>
       <Divider />
-      <Year>2020</Year>
+      <Year>Education</Year>
       <ul>
-        <Step title="Top Rated Freelancer on Upwork">
-          I'm very exited to represent the top 10% of talent on Upwork. The
-          grind has just begun!
-        </Step>
-        <Step title="Open-Source React Template">
-          Created a{" "}
-          <a
-            href="https://github.com/Adrinlol/landy-react-template"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            template
-          </a>{" "}
-          that comes with multi-lingual support, smooth animations, contact form
-          built with React Hooks and error validations, set of ready to use
-          sections and most importantly, a PERFECT score on Lighthouse.
-        </Step>
-        <Step title="First Article on Medium">
-          Wrote my{" "}
-          <a
-            href="https://medium.com/swlh/setting-up-and-deploying-a-twitter-app-from-scratch-twitter-bot-article-8b6798d68a16"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            first article
-          </a>{" "}
-          on how to set up an deploy a twitter app from scratch. This bot was
-          able to search, retweet and like all the tweets containing the
-          provided keyword.
-        </Step>
-        <Step title="Second Project for the Open-Source">
-          This was around the time when I was reading a lot about JavaScript, so
-          instead of having bunch of different articles and books, I decided to
-          create{" "}
-          <a
-            href="https://github.com/Adrinlol/javascript-guide"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            one project
-          </a>{" "}
-          aimed at combining basic to advanced concepts.
-        </Step>
-        <Step title="Wrote First Open-Source Project">
-          Open-sourced{" "}
-          <a
-            href="https://github.com/Adrinlol/javascript-color-gradient"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            my first project
-          </a>
-          , currently holding over 1.7k monthly downloads. <br />
-          It handles the login behind generating an array of color gradients by
-          providing start and finish colors, as well as the required number of
-          midpoints.
-        </Step>
-        <Step title="Completed My First Project on Upwork">
-          Developed a responsive, multi-language landing page for an AI
-          consulting company using React.js.
+        <Step title="STMIK Jakarta STI & K (2016 - 2022)">
+          Bachelor of Information System - GPA 3.4
         </Step>
       </ul>
       <Divider />
-      <Year>2018</Year>
+      <Year>Certifications</Year>
       <ul>
-        <Step title="Joined Circle">
-          I was offered and accepted a full-time offer with Circle - a Software
-          Development company in Georgia.
-        </Step>
-        <Step title="Started Learning Frontend Development">
-          Got hooked on learning Frontend, but I wasn't sure where or how to
-          start. <br />
-          There were so many options available not only programming
-          language-wise, but regarding tools, frameworks, and technologies as
-          well.
-        </Step>
+        - Indonesia Android Kejar 3.0, Beginner, Granted 2017, Google Developers
       </ul>
+      <ul>- Flutter Basic, Granted 2019, IMA Studio</ul>
+      <ul>
+        - Introduction to Data Studio, Granted 2022, Google Analytics Academy
+      </ul>
+      <ul>- Data Analytics, Granted 2022, RevoU</ul>
+      <ul>- Product Management, Granted 2022, RevoU</ul>
+      <ul>
+        - English Certificate 70/100 (C1 Advanced), EF Standard English Test
+      </ul>
+      <Divider />
+      <Year>Skills</Year>
+      <ul>- Java, C/C++, Shell script, Phyton (OOP)</ul>
+      <ul>- SQL (Oracle, MySQL)</ul>
+      <ul>- Project Management</ul>
+      <ul>- Data Analyst</ul>
+      <ul>
+        - System Administrator (UNIX based OS like RedHat, CentOS, ubuntu, etc))
+      </ul>
+      <ul>- Storage and Backup Administrator</ul>
+      <ul>- Database Administrator</ul>
+      <ul>- UI/UX Designer</ul>
+      <ul>- Android/Flutter Developer</ul>
+      <ul>- DevSecOps</ul>
+      <ul>- Microsoft Office</ul>
+      <Divider />
     </>
   );
 };

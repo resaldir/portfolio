@@ -4,7 +4,11 @@ import { Paragraph } from "pages/blog";
 
 export default function TopTracks() {
   return (
+<<<<<<< HEAD
+    <Container title="Top Tracks - Resaldi Resaldi Ramadhan Putra">
+=======
     <Container title="Top Tracks - Lasha Kakabadze">
+>>>>>>> dcbb74842473cd3a2b0e3271742e494e4132fdb1
       <h1>Top Tracks</h1>
       <Paragraph>
         Some of my personal favorite records on Spotify, that I think are

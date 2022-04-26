@@ -29,7 +29,7 @@ export default function Home() {
         </ContentWrapper>
         <RoundImage
           src={ProfilePicture}
-          alt="Picture of Lasha"
+          alt="Picture of Saldi"
           width="150px"
           height="150px"
         />
@@ -48,8 +48,9 @@ export const ContentWrapper = styled.div<StringProps>`
   }
 
   h2 {
-    margin: 1rem 0;
+    margin: 0;
     font-size: 1.25rem;
+    font-weight: bold;
   }
 
   p {
