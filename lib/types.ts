@@ -6,13 +6,6 @@ export interface TopTracksProps {
   title: string;
 }
 
-export interface PostsProps {
-  artist: string;
-  description: string;
-  pubDate: Date;
-  title: string;
-}
-
 export interface ProjectsProps {
   htmlUrl: string;
   name: string;
