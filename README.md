@@ -18,13 +18,13 @@ You’ll need to have Node 10.16.0 or later version on your local development ma
 
 Install the dependancies for this project.
 
-```npm install
-```
+``npm install
+``
 
 Start a Node development server.
 
-```npm run dev 
-```
+``npm run dev 
+``
 
 The application will open in your browser at http://localhost:3000
 

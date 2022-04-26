@@ -1,6 +1,6 @@
 import Container from "components/Layout/Container";
 import { TestimonialList } from "components/TestimonialList";
-import { Paragraph } from "pages/blog";
+import { Paragraph } from "pages/link";
 
 export default function Testimonials() {
   return (

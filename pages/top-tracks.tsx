@@ -1,6 +1,6 @@
 import Container from "components/Layout/Container";
 import { MostListened } from "components/MostListened";
-import { Paragraph } from "pages/blog";
+import { Paragraph } from "pages/link";
 
 export default function TopTracks() {
   return (
