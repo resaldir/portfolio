@@ -6,7 +6,7 @@ import { DividerBorder } from "components/Timeline/styles";
 
 const Divider = () => <DividerBorder />;
 
-export default function Blog() {
+export default function Link() {
   return (
     <Container title="Link - Resaldi Ramadhan Putra">
       <h1>Link</h1>
