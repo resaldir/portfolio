@@ -2,7 +2,6 @@ import Link from "next/link";
 import styled from "styled-components";
 import Image from "next/image";
 import { Timeline } from "components/Timeline";
-import { Projects } from "components/Projects";
 import Container from "components/Layout/Container";
 import { StringProps } from "lib/types";
 import { devices } from "lib/displayDevice";
