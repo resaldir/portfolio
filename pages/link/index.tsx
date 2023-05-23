@@ -17,16 +17,6 @@ export default function Link() {
           target="_blank"
           text="LinkedIn"
         />
-        <Navigation
-          href="https://twitter.com/resaldi_rp"
-          target="_blank"
-          text="Twitter"
-        />
-        <Navigation
-          href="https://www.instagram.com/re_____design/"
-          target="_blank"
-          text="Instagram"
-        />
       </FlexLinks>
       <Divider />
     </Container>
