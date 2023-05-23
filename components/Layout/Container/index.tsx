@@ -25,6 +25,7 @@ export default function Container({ children, ...customMeta }: ContainerProps) {
   const meta = {
     title: "Resaldi Ramadhan Putra - IT Operasion Analyst Lead",
     description: `Database Administrator | Data Enthusiast.`,
+    image: "public/assets/png/saldi.jpg",
     type: "website",
     ...customMeta,
   };
