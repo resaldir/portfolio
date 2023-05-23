@@ -17,6 +17,11 @@ export default function Link() {
           target="_blank"
           text="LinkedIn"
         />
+        <Navigation
+          href="https://medium.com/@resaldir"
+          target="_blank"
+          text="Medium"
+        />
       </FlexLinks>
       <Divider />
     </Container>
