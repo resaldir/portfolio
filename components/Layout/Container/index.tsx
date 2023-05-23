@@ -24,8 +24,7 @@ export default function Container({ children, ...customMeta }: ContainerProps) {
   const router = useRouter();
   const meta = {
     title: "Resaldi Ramadhan Putra - IT Operasion Analyst Lead",
-    description: `React developer, JavaScript enthusiast, and freelancer.`,
-    image: "https://www.adrinlol.com/assets/png/Thumbnail.png",
+    description: `Database Administrator | Data Enthusiast.`,
     type: "website",
     ...customMeta,
   };
