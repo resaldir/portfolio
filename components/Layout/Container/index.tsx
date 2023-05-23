@@ -23,7 +23,7 @@ interface ContainerProps {
 export default function Container({ children, ...customMeta }: ContainerProps) {
   const router = useRouter();
   const meta = {
-    title: "Resaldi Ramadhan Putra - IT Operasion Analyst Lead",
+    title: "Resaldi Ramadhan Putra",
     description: `Database Administrator | Data Enthusiast.`,
     image: "public/assets/png/saldi.jpg",
     type: "website",
