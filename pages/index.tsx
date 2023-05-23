@@ -16,13 +16,9 @@ export default function Home() {
       <HeroFlex align="flex-start">
         <ContentWrapper>
           <h1>Resaldi Ramadhan Putra</h1>
-          <h2>IT Operation Analyst Lead</h2>
+          <h2>Database Administrator</h2>
           <p>
-            Experienced 6+ years in IT Telecommunication industry environment as
-            a Team Leader, IT Technical Support, UI/UX Designer, and Information
-            Technology Operations Analyst. Familiar with Team management from
-            designing, creating, execution, controlling, monitoring, and
-            reporting.
+            With over 7 years of hands-on experience, I have actively contributed to building cutting-edge technologies within startup and enterprise companies. My expertise spans the Telecommunication Industry and Financial Technology domain, where I have excelled as a skilled Team Leader, proficient IT Technical Support specialist, and detail-oriented IT Operations Analyst. Currently, I hold the position of DBA, where I continue to contribute to the advancement of technology with dedication and expertise.
           </p>
         </ContentWrapper>
         <RoundImage
